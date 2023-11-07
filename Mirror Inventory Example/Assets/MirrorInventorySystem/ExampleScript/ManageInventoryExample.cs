@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.Rendering;
 using UnityEngine.UI;
 
-public class ManageInventory : MirrorInventory
+public class ManageInventoryExample : MirrorInventory
 {
     public EventSystem EventSystem;
     public GraphicRaycaster Raycaster;
