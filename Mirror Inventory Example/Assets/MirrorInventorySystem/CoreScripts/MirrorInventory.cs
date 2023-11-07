@@ -12,12 +12,11 @@ public class MirrorInventory : NetworkBehaviour
     public GameObject[] ContainerSlots;
     public GameObject[] ItemsIndex;
     public ContainerInventory container;
-    public item[] Items;
+    public item[] Items = new item[20];
     public static item NullItem = new item { id = 0, value = 0 };
 
     private void Start()
     {
-        item[] items = new item[ContainerSlots.Length];
         if (ItemsSlots.Length == 0)
         {
             for (int i = 0; i < ItemsSlots.Length; i++)
