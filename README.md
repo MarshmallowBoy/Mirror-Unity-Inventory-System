@@ -1,3 +1,2 @@
 # Mirror Unity Inventory System
- Tutorial/Readme to be continued...
-(*Plays the song roundabout*)
+[Here](https://github.com/MarshmallowBoy/Mirror-Unity-Inventory-System/blob/main/Mirror%20Inventory%20Example/Assets/MirrorInventorySystem/MirrorInventorySystemDocs.pdf)
